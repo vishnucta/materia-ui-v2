@@ -110,22 +110,18 @@ const useStyles = makeStyles((theme) => ({
   ObjectContainer: {
     backgroundImage: `url(${bkgdBanner})`,
     backgroundRepeat: "no-repeat",
-    //  backgroundColor: "red",
+    
     position: "sticky",
-    // left: "0",
-    // right: "10px",
-    // top:"0px",
+  
     width: "100%",
     height: "500px",
     backgroundSize: "contain",
-    // objectFit:"contain",
-    //  overflow: "auto",
-    //   width: "100%",
-    //   height: "100%",
-    // position: "absolute",
-    //  zIndex: 10,
-    //   top: 0,
-    //   left: 0,
+
+
+    // height: "100vh",
+    // backgroundPosition: "center",
+    //   backgroundSize: "cover"
+
   },
   ObjectContainerTexts: {
     position: "absolute",
